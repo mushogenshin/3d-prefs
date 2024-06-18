@@ -10,13 +10,7 @@
 // MAKE POLYMESH3D
 [IPress,Tool: Make PolyMesh3D]
 
-// DISABLE UNDO HISTORY IN QUICKSAVE
-[IPress, Preferences:QuickSave:Skip History]
-[ISet,Preferences:Undo History:Max Undo History,10000]
-[ISet,Preferences:QuickSave:Rest Duration,15]
-[IUnPress,Preferences:Undo History:Enable Saving]
-[IPress,Preferences:Undo History:Skip Loading]
-
+// VIEWPORT 
 [ISet,Draw:Focal length(mm),60]
 [ISet,Document:Range,0.15]
 [ISet,Document:Center,0.5]
@@ -78,7 +72,7 @@
 [IUnPress,Draw:Rgb]
 [IModSet,Draw:Draw Size,1]
 
-// TODO: CURVETUBE BRUSH
+// CURVETUBE BRUSH
 
 // SNAKEHOOK BRUSH
 [IPress,Brush:SnakeHook]
