@@ -1,0 +1,11 @@
+[Windows]
+dst_uses_regex = true
+dst_root = "C:/Program Files"
+dst_variant_patterns = ['(Maxon\s)?ZBrush\s\d{4}']
+dst_subdir = "ZStartup/Macros"
+
+[Darwin]
+dst_uses_regex = true
+dst_root = "/Applications"
+dst_variant_patterns = ['(Maxon\s)?ZBrush\s\d{4}']
+dst_subdir = "ZStartup/Macros"

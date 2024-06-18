@@ -1,0 +1,11 @@
+[Windows]
+dst_uses_regex = true
+dst_root = "C:/Users/Public/Documents"
+dst_variant_patterns = ['^ZBrushData()']
+dst_subdir = "Preferences"
+
+[Darwin]
+dst_uses_regex = true
+dst_root = "/Users/Shared"
+dst_variant_patterns = ['^ZBrushData()']
+dst_subdir = "Preferences"
